@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<center>
+  <div id="heading" class="">
+  <h1 class="jumbotron col-lg-12 col-sm-6 col-md-9 col-xs-6">Real Time Image Identification App</h1>
+    <center>
+      <div class="heading">
+        We are using Mobilenet as a Model  
+        <br>
+          <div class="heading-text">
+          Mobilenet model is trained on more than 1.3 million images
+          </div>
+        </div>
+    </center>
+    </div>
+    <br>
+  <br><br>
+  
+  <div id="results">
+  <p class="">Object : 
+    <span id="object"></span> 
+  </p>
+  
+  <br><br>
+  <p class="">Accuracy : 
+    <span id="accuracy"></span> 
+  </p>
+  </div>
+
+</center>
+
+<div class="copy_right_footer">
+  Developed By - Varchasvi Pandey varchasvip2009@gmail.com
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
